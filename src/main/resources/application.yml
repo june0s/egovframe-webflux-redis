@@ -1,0 +1,11 @@
+server:
+    port: 9094
+
+spring:
+    application:
+        name: REDIS-SERVER
+    redis:
+        host: "127.0.0.1"
+        port: 6379
+        nodes: "redis-cluster-0, redis-cluster-1, redis-cluster-2, redis-cluster-3, redis-cluster-4"
+        password: redis@kra
