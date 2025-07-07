@@ -25,7 +25,7 @@ public class EgovRedisConfig {
     @Value("${spring.redis.host}")
     private String host;
 
-    @Value("${spring.redis.host}")
+    @Value("${spring.redis.nodes}")
     private String nodes;
 
     @Value("${spring.redis.port}")
